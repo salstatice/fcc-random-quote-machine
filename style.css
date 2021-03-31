@@ -1,0 +1,48 @@
+:root {
+  --theme-color: teal;
+}
+
+.container-fluid {
+  background-color: gray;
+  background-color: var(--theme-color);
+  color: gray;
+  color: var(--theme-color);
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Helvita", sans-serif;
+  font-weight: 400;
+}
+
+#quote-box {
+  background-color: white;
+  width: 600px;
+  height: 500px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+  border-color: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote {
+  width: 500px;
+  height: 400px;
+}
+#quote #text {
+  font-size: 3em;
+  padding: 0.5em;
+}
+#quote #author {
+  font-size: 2em;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: var(--theme-color) !important;
+  border-color: var(--theme-color) !important;
+}
